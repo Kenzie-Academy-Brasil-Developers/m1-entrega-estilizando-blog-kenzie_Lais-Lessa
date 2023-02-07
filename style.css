@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    height: 100vh;
+    background-color: #aabed1;
+    font-family: 'roboto', sans-serif;
+}
+
+header{
+    background-color: #0717f8;
+    margin-bottom: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 20px;
+    color: #343a40;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-style: normal;
+}
+
+p{
+    text-align:justify ;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+    margin-left: 10px;
+    font-style: normal;
+}
+
+
+
+.escritor{
+    color: black;
+    font-size: 15px;
+
+}
+
+
+.btn a{
+    color: white;
+    width: 40px;
+    height: 20px;
+    background-color: #0717f8;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+}
+
+a:hover{
+    background-color: #71a1d1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pesquisa{
+    color: #0717f8;
+    
+}
+
+section{
+    margin-top: 60px;
+}
+
+article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: #343a40;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-style: normal;
+}
+
+ul{
+    margin-bottom:30px;
+    margin-top: 30px;
+    border:2px solid #adb5bd;
+    text-align:left ;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#a4b6c9;
+    display: list-item  ;
+    
+}
+
+.boton{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+   margin-bottom: 100px;   
+}
+
+input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px;
+}
+
+input:hover{
+    background-color: #364fc7;
+}
+
+button{
+    font-size: 20px;
+    background-color: #868e96;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border:none;
+}
+
+button:hover{
+    background-color: #343a40;
+}
+
+li{
+    list-style-type:inherit ;
+    margin-left: 10px;
+}
+
+div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form{
+    border: 5px solid #a4b6c9;
+    width: 700px;;
+    background-color: #a4b6c9;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 50px;
+}
