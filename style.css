@@ -23,6 +23,7 @@ header{
 h1{
     color: white;
     font-size: 40px;
+    text-align: center;
 }
 
 h2{
@@ -30,15 +31,16 @@ h2{
     color: #343a40;
     font-weight: 700;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
     font-style: normal;
+    border: 1px solid  #0717f8;
 }
 
 p{
-    text-align:justify ;
+    text-align:center;
     font-size: 16px;
     margin-bottom: 10px;
     color: black;
@@ -51,6 +53,7 @@ p{
 .escritor{
     color: black;
     font-size: 15px;
+    text-align: left;
 
 }
 
@@ -94,11 +97,12 @@ h3{
     color: #343a40;
     font-weight: 700;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
     font-style: normal;
+    border: 1px solid  #0717f8;
 }
 
 ul{
