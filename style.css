@@ -36,7 +36,6 @@ h2{
     background-color: white;
     border-radius: 10px;
     font-style: normal;
-    border: 1px solid  #0717f8;
 }
 
 p{
@@ -85,6 +84,8 @@ a{
 
 section{
     margin-top: 60px;
+    border: 2px solid  #0717f8;
+
 }
 
 article{
@@ -102,7 +103,7 @@ h3{
     background-color: white;
     border-radius: 10px;
     font-style: normal;
-    border: 1px solid  #0717f8;
+    
 }
 
 ul{
@@ -134,6 +135,7 @@ input{
     padding: 10px;
     border-radius: 5px;
     border: 3px;
+    
 }
 
 input:hover{
@@ -147,6 +149,7 @@ button{
     border-radius: 5px;
     color: white;
     border:none;
+    
 }
 
 button:hover{
@@ -161,15 +164,23 @@ li{
 div{
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
 
 form{
     border: 5px solid #a4b6c9;
-    width: 700px;;
+    width: 600px;;
     background-color: #a4b6c9;
-    width: 700px;
-    height: 200px;
+    height: 100px;
     text-align: center;
-    margin-left: 450px;
-    margin-top: 50px;
+    height: 200px;
+   
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
