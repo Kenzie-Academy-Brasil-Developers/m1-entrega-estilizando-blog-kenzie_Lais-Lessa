@@ -85,6 +85,12 @@ a{
 section{
     margin-top: 60px;
     border: 2px solid  #0717f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px ;
+
 
 }
 
@@ -115,7 +121,6 @@ ul{
     padding: 10px;
     border-radius: 10px;
     background-color:#a4b6c9;
-    display: list-item  ;
     
 }
 
